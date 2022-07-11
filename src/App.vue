@@ -1,11 +1,8 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <View :mes="111111111111"/>
+  <SpecialTable />
 </template>
 <script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import View from './components/View.vue';
+import SpecialTable from './components/SpecialTable.vue';
 </script>
 
 <style>
